@@ -4,11 +4,9 @@ class Shape {
 public:
     double compute_area();
 
-
 };
 
-
-class Rectangle {
+class Rectangle : public Shape {
 protected:
     double length;
     double  width;
@@ -21,17 +19,12 @@ public:
 
     };
 
-
 };
 
-
-
-class Square {
+class Square : public Rectangle {
 public:
     Square(const Square &newSide) : newSide(newSide) {
-
-    }
-
+    };
     getSide();
 };
 
