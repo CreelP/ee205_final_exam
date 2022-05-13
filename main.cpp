@@ -5,7 +5,6 @@ public:
     void mySquare() {
 
     }
-
 };
 
 class Rectangle : public Shape {
