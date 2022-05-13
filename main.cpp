@@ -13,21 +13,25 @@ protected:
     double length;
     double  width;
 public:
-    Rectangle(newLength, newWidth) {
-        if(newLength && newWidth <= 0)
-            std::cout<<"length and width must be > 0" << endl;
-        else
+    Rectangle(newLength newWidth) {
+        if(newLength && newWidth <= 0) {
+            std::cout << "length and width must be > 0" << endl;
+        }
+        return true;
 
+    };
 
-    }
 
 };
 
+
+
 class Square {
 public:
-    Square(newSide) {
+    Square(const Square &newSide) : newSide(newSide) {
 
     }
+
     getSide();
 };
 
