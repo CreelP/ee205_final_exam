@@ -2,7 +2,7 @@
 
 class Shape {
 public:
-    void mySquare() {
+    void compute_area() {
 
     }
 };
@@ -27,7 +27,7 @@ public:
     Square(const Square &newSide) : newSide(newSide) {
     };
     void getSide() {
-        return length;
+        return double length;
 
     }
 };
