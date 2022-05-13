@@ -27,7 +27,7 @@ public:
     Square(const Square &newSide) : newSide(newSide) {
     };
     void getSide() {
-        return double length;
+        return length;
 
     }
 };
